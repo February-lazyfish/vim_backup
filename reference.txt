@@ -1,0 +1,1 @@
+切记执行install_vim.sh文件时不能加上sudo，还有要使用bash执行两个文件，而不是使用sh
