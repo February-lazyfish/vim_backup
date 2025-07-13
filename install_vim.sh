@@ -8,7 +8,8 @@ elif [ -f /etc/redhat-release ]; then
 fi
 #是否有用看最后的配置结果
 #sudo git clone https://github.com/chxuan/vimplus.git ~/vimplus-master
-
+# 合包操作
+cat vim_config.tar.gz.part.a* > vim_config.tar.gz
 # 恢复配置
 sudo tar -xzvf vim_config.tar.gz 
 sudo cp ./vim_config/.vimrc ~
